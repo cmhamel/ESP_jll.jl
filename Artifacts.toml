@@ -1,0 +1,9 @@
+[[ESP]]
+arch = "x86_64"
+git-tree-sha1 = "5aecf8a083dc50312cd5aa9114295435353b2fbd"
+libc = "glibc"
+os = "linux"
+
+    [[ESP.download]]
+    sha256 = "4c70dfc4052e94fb52adcb61cb06979bd5f374375990d70dabe64e73ef287b9c"
+    url = "https://github.com/cmhamel/ESP_jll.jl/releases/download/ESP-v1.28.0+0/ESP.v1.28.0.x86_64-linux-gnu.tar.gz"
