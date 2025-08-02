@@ -1,9 +1,9 @@
 [[ESP]]
 arch = "x86_64"
-git-tree-sha1 = "5aecf8a083dc50312cd5aa9114295435353b2fbd"
+git-tree-sha1 = "59f66340fcebcd3af235e4ea33bc76c29be247d3"
 libc = "glibc"
 os = "linux"
 
     [[ESP.download]]
-    sha256 = "4c70dfc4052e94fb52adcb61cb06979bd5f374375990d70dabe64e73ef287b9c"
-    url = "https://github.com/cmhamel/ESP_jll.jl/releases/download/ESP-v1.28.0+0/ESP.v1.28.0.x86_64-linux-gnu.tar.gz"
+    sha256 = "de55698ef2c4d99ab2d0c4ab1e1e6c690feb4da3c26b7ca42f1805b5e8b88926"
+    url = "https://github.com/cmhamel/ESP_jll.jl/releases/download/ESP-v1.23.0+0/ESP.v1.23.0.x86_64-linux-gnu.tar.gz"

@@ -13,25 +13,25 @@ function __init__()
     JLLWrappers.@generate_init_header(CompilerSupportLibraries_jll, XML2_jll, Zlib_jll)
     JLLWrappers.@init_library_product(
         libcaps,
-        "ESP128/EngSketchPad/lib/libcaps.so",
+        "EngSketchPad/lib/libcaps.so",
         RTLD_LAZY | RTLD_DEEPBIND,
     )
 
     JLLWrappers.@init_library_product(
         libegads,
-        "ESP128/EngSketchPad/lib/libegads.so",
+        "EngSketchPad/lib/libegads.so",
         RTLD_LAZY | RTLD_DEEPBIND,
     )
 
     JLLWrappers.@init_library_product(
         libocsm,
-        "ESP128/EngSketchPad/lib/libocsm.so",
+        "EngSketchPad/lib/libocsm.so",
         RTLD_LAZY | RTLD_DEEPBIND,
     )
 
     JLLWrappers.@init_executable_product(
         serveCSM,
-        "ESP128/EngSketchPad/bin/serveCSM",
+        "EngSketchPad/bin/serveCSM",
     )
 
     JLLWrappers.@generate_init_footer()
